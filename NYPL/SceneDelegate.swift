@@ -21,7 +21,8 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         let window = UIWindow(windowScene: windowScene)
         
         let navigationController = UINavigationController()
-        let rootViewController = ViewController()
+        let rootViewModel = BooksViewModel(networkService: NetworkService())
+        let rootViewController = BooksViewController(viewModel: rootViewModel)
         
         navigationController.viewControllers = [rootViewController]
         window.rootViewController = navigationController

@@ -22,6 +22,8 @@
 		5D7C606627F2D43500C196F6 /* books.json in Resources */ = {isa = PBXBuildFile; fileRef = 5D7C606527F2D43500C196F6 /* books.json */; };
 		5D7C606827F2D4C000C196F6 /* MockNetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C606727F2D4C000C196F6 /* MockNetworkService.swift */; };
 		5D7C606E27F2D70E00C196F6 /* BooksViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C606D27F2D70E00C196F6 /* BooksViewModel.swift */; };
+		5D7C607027F2D77E00C196F6 /* BooksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C606F27F2D77E00C196F6 /* BooksViewController.swift */; };
+		5D7C607227F2D89100C196F6 /* BooksTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C607127F2D89100C196F6 /* BooksTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +63,8 @@
 		5D7C606527F2D43500C196F6 /* books.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = books.json; sourceTree = "<group>"; };
 		5D7C606727F2D4C000C196F6 /* MockNetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkService.swift; sourceTree = "<group>"; };
 		5D7C606D27F2D70E00C196F6 /* BooksViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewModel.swift; sourceTree = "<group>"; };
+		5D7C606F27F2D77E00C196F6 /* BooksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksViewController.swift; sourceTree = "<group>"; };
+		5D7C607127F2D89100C196F6 /* BooksTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				5D7C601A27F174B000C196F6 /* ViewController.swift */,
+				5D7C606F27F2D77E00C196F6 /* BooksViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -173,6 +178,7 @@
 		5D7C605927F2BE3000C196F6 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5D7C607127F2D89100C196F6 /* BooksTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -341,7 +347,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7C601B27F174B000C196F6 /* ViewController.swift in Sources */,
+				5D7C607027F2D77E00C196F6 /* BooksViewController.swift in Sources */,
 				5D7C604C27F2B71400C196F6 /* BookResponse.swift in Sources */,
+				5D7C607227F2D89100C196F6 /* BooksTableViewCell.swift in Sources */,
 				5D7C601727F174B000C196F6 /* AppDelegate.swift in Sources */,
 				5D7C606E27F2D70E00C196F6 /* BooksViewModel.swift in Sources */,
 				5D7C604E27F2B75000C196F6 /* NetworkError.swift in Sources */,
