@@ -15,6 +15,9 @@
 		5D7C602E27F174B600C196F6 /* NYPLTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C602D27F174B600C196F6 /* NYPLTests.swift */; };
 		5D7C603827F174B600C196F6 /* NYPLUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C603727F174B600C196F6 /* NYPLUITests.swift */; };
 		5D7C603A27F174B600C196F6 /* NYPLUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C603927F174B600C196F6 /* NYPLUITestsLaunchTests.swift */; };
+		5D7C604C27F2B71400C196F6 /* BookResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C604B27F2B71400C196F6 /* BookResponse.swift */; };
+		5D7C604E27F2B75000C196F6 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C604D27F2B75000C196F6 /* NetworkError.swift */; };
+		5D7C605027F2B79900C196F6 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7C604F27F2B79900C196F6 /* NetworkService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		5D7C603327F174B600C196F6 /* NYPLUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NYPLUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7C603727F174B600C196F6 /* NYPLUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPLUITests.swift; sourceTree = "<group>"; };
 		5D7C603927F174B600C196F6 /* NYPLUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NYPLUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5D7C604B27F2B71400C196F6 /* BookResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookResponse.swift; sourceTree = "<group>"; };
+		5D7C604D27F2B75000C196F6 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		5D7C604F27F2B79900C196F6 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +105,13 @@
 			children = (
 				5D7C601627F174B000C196F6 /* AppDelegate.swift */,
 				5D7C601827F174B000C196F6 /* SceneDelegate.swift */,
+				5D7C604D27F2B75000C196F6 /* NetworkError.swift */,
+				5D7C604F27F2B79900C196F6 /* NetworkService.swift */,
 				5D7C601A27F174B000C196F6 /* ViewController.swift */,
 				5D7C601F27F174B500C196F6 /* Assets.xcassets */,
 				5D7C602127F174B500C196F6 /* LaunchScreen.storyboard */,
 				5D7C602427F174B500C196F6 /* Info.plist */,
+				5D7C604B27F2B71400C196F6 /* BookResponse.swift */,
 			);
 			path = NYPL;
 			sourceTree = "<group>";
@@ -255,7 +264,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D7C601B27F174B000C196F6 /* ViewController.swift in Sources */,
+				5D7C604C27F2B71400C196F6 /* BookResponse.swift in Sources */,
 				5D7C601727F174B000C196F6 /* AppDelegate.swift in Sources */,
+				5D7C604E27F2B75000C196F6 /* NetworkError.swift in Sources */,
+				5D7C605027F2B79900C196F6 /* NetworkService.swift in Sources */,
 				5D7C601927F174B000C196F6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

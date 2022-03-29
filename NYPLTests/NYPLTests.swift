@@ -18,5 +18,11 @@ class NYPLTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
     }
 
-
+    func test_FetchBooksSuccessResponse() {
+        // 1
+        let sut = NetworkService()
+        sut.fetchBooks(for: "Farenheit 451") { result in
+            
+        }
+    }
 }
