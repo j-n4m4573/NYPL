@@ -10,19 +10,24 @@ import XCTest
 
 class NYPLTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    override func setUp() {
+        super.setUp()
+        
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
+    
     func test_FetchBooksSuccessResponse() {
-        // 1
-        let sut = NetworkService()
+        let data = loadStub(name: "books", extension: "json")
+        let sut = MockNetworkService()
+        sut.data = data
+        
         sut.fetchBooks(for: "Farenheit 451") { result in
-            
+            switch result {
+            case .success(let bookResponse):
+                XCTAssertTrue(!bookResponse.books.isEmpty)
+                return
+            case .failure(let error):
+                return
+            }
         }
     }
 }
