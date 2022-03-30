@@ -29,8 +29,7 @@ class NetworkService: APIService {
             completion(.failure(.invalidURL))
             return
         }
-        print(url)
-        
+       
         URLSession.shared.dataTask(with: url) { data, response, error in
             if let error = error {
                 debugPrint(error.localizedDescription)

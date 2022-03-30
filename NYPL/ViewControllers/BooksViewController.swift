@@ -60,8 +60,8 @@ class BooksViewController: UIViewController, FetchCompletionDelegate {
     
     func setupNavigationBar() {
         navigationController?.navigationBar.isTranslucent = false
-        navigationController?.view.backgroundColor = UIColor(red: 0.12, green: 0.31, blue: 0.62, alpha: 1.00)
-        navigationController?.navigationBar.tintColor = UIColor(red: 0.12, green: 0.31, blue: 0.62, alpha: 1.00)
+        navigationController?.view.backgroundColor = UIColor.wavyBlue
+        navigationController?.navigationBar.tintColor = UIColor.wavyBlue
         navigationItem.title = "Search Books"
         
         guard let font = UIFont(name: "Avenir", size: 18) else {return}

@@ -13,7 +13,7 @@ class BookTableViewCell: UITableViewCell {
         let imageView = UIImageView()
         imageView.clipsToBounds = true
         imageView.contentMode = .scaleAspectFit
-        imageView.tintColor = UIColor(red: 0.12, green: 0.31, blue: 0.62, alpha: 1.00)
+        imageView.tintColor = UIColor.wavyBlue
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
     }()
@@ -49,7 +49,6 @@ class BookTableViewCell: UITableViewCell {
         setupTitleLabel()
         setupAuthorLabel()
         setupPublishDateLabel()
-   
     }
     
     required init?(coder: NSCoder) {
